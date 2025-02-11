@@ -14,12 +14,18 @@ public class Dog extends Mammal{
 		System.out.println("Wooffffff");
 	}
 
-    public static void main (String args[]) {
+	
+	
+    @Override
+	public String toString() {
+		return "Dog [toString()=" + super.toString() + "]";
+	}
+
+	public static void main (String args[]) {
     	Dog d1 = new Dog("DogSenior");
     	Dog d2 = new Dog("Francis");
     	System.out.println(d1);
     	d1.greets();
-    	d1.greets(d2);
-    	
+    	d1.greets(d2);	
     }
 }
