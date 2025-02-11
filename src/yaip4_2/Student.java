@@ -1,4 +1,4 @@
-package yaip4;
+package yaip4_2;
 public class Student extends Person {
     private String program;
     private int year;

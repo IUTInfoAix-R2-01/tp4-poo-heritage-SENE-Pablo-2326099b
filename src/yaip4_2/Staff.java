@@ -1,4 +1,4 @@
-package yaip4;
+package yaip4_2;
 
 public class Staff extends Person {
 	private String school;

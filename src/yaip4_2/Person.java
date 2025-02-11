@@ -1,4 +1,4 @@
-package yaip4;
+package yaip4_2;
 
 public class Person {
 	private String name;
